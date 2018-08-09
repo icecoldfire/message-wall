@@ -1,0 +1,15 @@
+body{
+    color: #572600;
+    background-color: #bdd732;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+footer img {
+    position: static;
+    bottom: 0;
+}
+
+.card {
+    margin-bottom: 1em;
+}

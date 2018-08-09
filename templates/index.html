@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>SMS WALL</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha256-Md8eaeo67OiouuXAi8t/Xpd8t2+IaJezATVTWbZqSOw="
+	 crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}" />
+	<script src="{{ url_for('static', filename='updater.js') }}"></script>
+</head>
+
+<body class="container">
+	<h1>IT en Jouw Groep</h1>
+	<img src="{{ url_for('static', filename='line.png') }}" alt="line">
+	<br/>
+	<h3>Sms naar: <a href="tel:"></a>
+	<br/>
+	<br/>
+	</h3>
+	<div id="messages">
+		<!--
+		<div class="card">
+		  <div class="card-body">
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		  </div>
+		</div>
+				-->
+	</div>
+	<br>
+	<div>
+		<a href="https://github.com/icecoldfire/">Stijn Goethals</a> and Jonas Bolsens &copy; 2018
+		<br/> Check code on
+		<a href="https://github.com/icecoldfire/message-wall">Github</a>
+		</a>
+		<br/>
+		<a href="https://www.facebook.com/groups/1624743751070603/">Ploeg Informatica</a> -
+		<a href="https://www.scoutsengidsenvlaanderen.be/">Scouts & Gidsen Vlaanderen</a>
+		<br/>
+	</div>
+	<footer>
+		<img src="{{ url_for('static', filename='TableLogo.png') }}" alt="PloegLogo">
+	</footer>
+</body>
+
+</html>
